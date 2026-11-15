@@ -1,0 +1,11 @@
+service nfc_hal_service.tms.aidl /vendor/bin/hw/android.hardware.nfc-service-tms
+    class hal
+    user nfc
+    group nfc
+    disabled
+
+on property:ro.boot.product.hardware.sku=p19ae
+    start nfc_hal_service.tms.aidl
+
+on property:ro.boot.product.hardware.sku=p19ap
+    start nfc_hal_service.tms.aidl

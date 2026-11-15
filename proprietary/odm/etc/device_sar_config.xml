@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SarDsiConfig>
+    <!-- use for sar uncouple framework -->
+    <sarVersion>2</sarVersion>
+
+    <!-- only use for Global -->
+    <deviceSarConfig device_name="zephyr">
+        <prop prop_name="ro.boot.hwc">Global</prop>
+        <!-- receiver,hotSpot(wifi_spot,(bluetooth,bluetooth_pan)),sarsensor1,sarsensor2,mcc,wifi,cable,hall,usb,lab,white_list,hall2,sarsensor3 -->
+        <listeners>1111110000010000001</listeners>
+        <simMccList>001,002,432,630,629,450,404,405,406,429,413,470,716,712,732,730,748,744,736,714,704,370,722,740,706,708,710</simMccList>
+        <!-- receiver,hotSpot(wifi_spot,(bluetooth,bluetooth_pan)),sarsensor1,sarsensor2,lab -->
+        <dsimap value="10FF0F">1</dsimap>
+        <dsimap value="10FF10">1</dsimap>
+        <dsimap value="00010F">2</dsimap>
+        <dsimap value="000110">2</dsimap>
+        <dsimap value="001F0F">3</dsimap>
+        <dsimap value="001F10">3</dsimap>
+        <dsimap value="00000F">4</dsimap>
+        <dsimap value="000010">4</dsimap>
+        <dsimap value="F1FF0F">5</dsimap>
+        <dsimap value="F1FF10">5</dsimap>
+        <dsimap value="FFFF11">6</dsimap>
+    </deviceSarConfig>
+
+    <!-- default configuration. -->
+    <deviceSarConfig device_name="zephyr">
+        <prop prop_name="ro.boot.hwc">default</prop>
+        <prop prop_name="ro.product.mod_device">default</prop>
+        <!-- receiver,hotSpot(wifi_spot,(bluetooth,bluetooth_pan)),sarsensor1,sarsensor2,mcc,wifi,cable,hall,usb,lab,white_list,hall2,sarsensor3 -->
+        <listeners>1111110000010000001</listeners>
+        <simMccList>001,002,432,630,629,450,404,405,406,429,413,470,716,712,732,730,748,744,736,714,704,370,722,740,706,708,710</simMccList>
+        <!-- receiver,hotSpot(wifi_spot,(bluetooth,bluetooth_pan)),sarsensor1,sarsensor2,lab -->
+        <dsimap value="10FF0F">1</dsimap>
+        <dsimap value="10FF10">1</dsimap>
+        <dsimap value="00010F">2</dsimap>
+        <dsimap value="000110">2</dsimap>
+        <dsimap value="001F0F">3</dsimap>
+        <dsimap value="001F10">3</dsimap>
+        <dsimap value="00000F">4</dsimap>
+        <dsimap value="000010">4</dsimap>
+        <dsimap value="F1FF0F">5</dsimap>
+        <dsimap value="F1FF10">5</dsimap>
+        <dsimap value="FFFF11">6</dsimap>
+    </deviceSarConfig>
+
+</SarDsiConfig>

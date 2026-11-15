@@ -1,0 +1,3 @@
+import odm/etc/boardid_property/${ro.boot.board_id}.prop
+persist.offlinelog.kernel.size=3000
+persist.offlinelog.logcat.size=7240

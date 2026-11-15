@@ -1,0 +1,54 @@
+{
+  "config":{
+    "hw_platform": ["IDP", "QRD"],
+    "soc_id": ["518"]
+  },
+  "sensor_devinfo": {
+    "owner": "NA",
+    ".gsensor_stk83xx":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "stk83xx_0_platform.accel.fac_cal.bias"
+	  },
+      "key": {"type": "str", "ver": "0",
+                   "data": "stk83xx_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gsensor_bma5":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bma5_0_platform.accel.fac_cal.bias"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "bma5_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".als_stk_stk6a2x_bod": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "stk6a2x_0_platform.als.fac_cal"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "stk6a2x_0_platform.als.fac_cal"
+      }
+    },
+    ".als_sip1328": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "sip1328_platform.als.fac_cal"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "sip1328_platform.als.fac_cal"
+      }
+    },
+    ".sar_semtech_sx937x_0": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "sx937x_0_platform.offset"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "sx937x_0_platform.offset"
+      }
+    }
+  }
+}

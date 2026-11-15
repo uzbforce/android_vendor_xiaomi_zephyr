@@ -1,0 +1,180 @@
+{
+  "config": {
+    "hw_platform": ["IDP", "QRD"],
+    "soc_id": ["518"]
+  },
+  "stk6a2x_0":{
+    "owner": "sns_stk6a2x",
+    ".ambient_light":{
+      "owner": "sns_stk6a2x",
+      ".config":{
+        "owner": "sns_stk6a2x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "stk6a2x_0_platform":{
+    "owner": "sns_stk6a2x",
+    ".config":{
+      "owner": "sns_stk6a2x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "71"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "84"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "1",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_stk6a2x",
+      ".fac_cal":{
+        "owner": "sns_stk6a2x",
+        "scale0":{ "type": "flt", "ver": "1",
+          "data": "0.867219"
+        },
+        "bias0":{ "type": "flt", "ver": "0",
+          "data": "5000.0"
+        },
+        "scale1":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias1":{ "type": "flt", "ver": "0",
+          "data": "5000.0"
+        },
+        "enScanAlsTd":{ "type": "flt", "ver": "1",
+          "data": "0.0"
+        },
+        "ScanAlsTdStart":{ "type": "flt", "ver": "1",
+          "data": "6000.0"
+        },
+        "enScanAlsTdInterval":{ "type": "flt", "ver": "1",
+          "data": "20.0"
+        },
+        "ScanAlsTdTarget":{ "type": "flt", "ver": "1",
+          "data": "10000.0"
+        }
+      },
+      ".fac_samples_rgb_gamma":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".fac_samples_brightness_gamma":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".fac_samples_max_brightness":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".config":{
+        "owner": "sns_stk6a2x",
+        "is_bod":{ "type": "flt", "ver": "1",
+          "data": "1"
+        },
+        "reserved":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

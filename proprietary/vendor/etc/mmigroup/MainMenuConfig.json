@@ -1,0 +1,156 @@
+{
+    "mainMenuConfig": [{
+            "showName": "Normal",
+            "itemConfig": "MMIGroupNormal.json",
+            "mode": 0,
+            "isATA": false,
+            "activity": "com.factory.mmigroup.MMIGroupNormalMode",
+            "testResult": "MMIGroupNormalTag",
+            "secret_code1": [
+                {
+                  "code": "*#*#88#*#*"
+                },
+                {
+                  "code": "*#*#6484#*#*"
+                }
+            ]
+        },
+        {
+            "showName": "mmimode_test",
+            "itemConfig": "MMIGroupMmiManual.json",
+            "oldItemConfig": "mmi.cfg",
+            "mode": 1,
+            "isATA": false,
+            "showInMainUI": true,
+            "showIndex": 1,
+            "showTestResultInMainUI": true,
+            "testResult": "MMIGroupMmiManualTag",
+            "activity": "com.factory.mmigroup.MMIGroupQrMenu"
+        },
+        {
+            "showName": "mmiatamode_test",
+            "itemConfig": "MMIGroupMmiAta.json",
+            "oldItemConfig": "mmi-pcba.cfg",
+            "mode": 2,
+            "isATA": true,
+            "showTestResultInMainUI": true,
+            "isBackGround": true,
+            "testResult": "MMIGroupMmiAtaTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "pcbamode_test",
+            "itemConfig": "MMIGroupPcbaManual.json",
+            "oldItemConfig": "vvt_pcba.cfg",
+            "mode": 3,
+            "isATA": false,
+            "showInMainUI": true,
+            "showIndex": 0,
+            "showTestResultInMainUI": true,
+            "testResult": "MMIGroupPcbaMaualTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "pcbaatamode_test",
+            "itemConfig": "MMIGroupPcbaAta.json",
+            "oldItemConfig": "ata-pcba.cfg",
+            "mode": 4,
+            "isATA": true,
+            "showTestResultInMainUI": true,
+            "testResult": "MMIGroupPcbaAtaTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "audioatamode_test",
+            "itemConfig": "MMIGroupAudioAta.json",
+            "oldItemConfig": "audio.cfg",
+            "mode": 6,
+            "isATA": true,
+            "showTestResultInMainUI": true,
+            "testResult": "MMIGroupAudioAtaTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "cameraatamode_test",
+            "itemConfig": "MMIGroupCameraAta.json",
+            "mode": 8,
+            "isATA": true,
+            "showInMainUI": false,
+            "showTestResultInMainUI": false,
+            "testResult": "MMIGroupCameraAtaTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "sensoratamode_test",
+            "itemConfig": "MMIGroupSensorAta.json",
+            "mode": 10,
+            "isATA": true,
+            "showTestResultInMainUI": false,
+            "testResult": "MMIGroupSensorAtaTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "AfterSale_AutoTest_Test",
+            "itemConfig": "MMIGroupASAutoTest.json",
+            "mode": 12,
+            "isATA": false,
+            "testResult": "MMIGroupXMAUTOTESTTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        },
+        {
+            "showName": "MMI2",
+            "itemConfig": "MMI2.json",
+            "mode": 17,
+            "isATA": false,
+            "showInMainUI": true,
+            "showIndex": 3,
+            "isBackGround": false,
+            "showTestResultInMainUI": true,
+            "testResult": "MMI2Tag",
+            "activity": "com.factory.mmigroup.MMIGroupQrMenu"
+        },
+        {
+            "showName": "MMI2_1",
+            "itemConfig": "MMI2_1.json",
+            "mode": 23,
+            "isATA": false,
+            "showInMainUI": true,
+            "showIndex": 3,
+            "isBackGround": false,
+            "showTestResultInMainUI": true,
+            "testResult": "MMI2_1Tag",
+            "activity": "com.factory.mmigroup.MMIGroupQrMenu"
+        },
+        {
+            "showName": "FQC",
+            "itemConfig": "FQC.json",
+            "mode": 21,
+            "isATA": false,
+            "showInMainUI": true,
+            "showTestResultInMainUI": true,
+            "testResult": "FQCTag",
+            "activity": "com.factory.mmigroup.MMIGroupQrMenu"
+        },
+        {
+            "showName": "Fmtmode_test",
+            "itemConfig": "MMIGroupFmt.json",
+            "mode": 24,
+            "isATA": false,
+            "showInMainUI": true,
+            "showTestResultInMainUI": true,
+            "testResult": "MMIGroupFmtTag",
+            "activity": "com.factory.mmigroup.MMIGroupQrMenu"
+        },
+        {
+            "showName": "sub_board_test",
+            "itemConfig": "SubBoardManal.json",
+            "mode": 27,
+            "isATA": false,
+            "showInMainUI": true,
+            "support": true,
+            "showTestResultInMainUI": false,
+            "testResult": "SubBoardManalTag",
+            "activity": "com.factory.mmigroup.MMIGroupMenu"
+        }
+    ]
+}

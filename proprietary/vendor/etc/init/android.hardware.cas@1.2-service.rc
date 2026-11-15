@@ -1,0 +1,10 @@
+service vendor.cas-hal-1-2 /vendor/bin/hw/android.hardware.cas@1.2-service
+    class hal
+    # 32-bit vendor binary: cannot exec on this 64-bit-only image (no
+    # /system/bin/linker). This is the Pay-TV conditional-access HAL; no phone
+    # app uses it, and Widevine DRM is a separate 64-bit service.
+    disabled
+    user media
+    group mediadrm drmrpc
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh

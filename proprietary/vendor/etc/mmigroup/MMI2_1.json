@@ -1,0 +1,60 @@
+{
+  "itemConfig": [
+    {
+      "showName": "SimCard_HotPlug"
+    },
+    {
+      "showName": "Sdcard_Intent"
+    },
+    {
+      "showName": "LCD",
+            "paramconfig": {
+                "lcd_pic": [
+                    "01-P19-W255;120;2047;null;0;2000",
+                    "ThreeColors;120;2047;null;0;2000",
+                    "05-P19-border;120;2047;null;0;2000",
+                    "06-P19-W0;120;2047;null;0;2000",
+                    "07-P19-Crosstalk;120;2047;null;0;2000",
+                    "09-P19-W32;120;8;null;0;2000",
+                    "10-P19-W10;120;405;null;0;2000",
+                    "11-P19-guodu;120;8;null;0;2000",
+                    "11-P19-guodu;120;2047;null;0;2000",
+                    "12-P19-chongzai;120;2047;null;0;2000",
+                    "01-P19-W255;60;2047;null;0;2000",
+                    "06-P19-W0;60;4095;null;0;2000",
+                    "09-P19-W32;60;8;null;0;2000",
+                    "11-P19-guodu;60;8;null;0;2000",
+                    "11-P19-guodu;60;2047;null;0;2000",
+                    "13-P19-AOD;60;0;null;1;2000"
+                ]
+            }
+    },
+    {
+      "showName": "TouchScreen"
+    },
+    {
+      "showName": "Charge"
+    },
+    {
+      "showName": "FastCharge"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "fingerprint_enroltest"
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "SIMCardTray"
+    }
+  ]
+}

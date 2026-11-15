@@ -1,0 +1,28 @@
+{
+    "itemConfig": [{
+            "showName": "SimCard_HotPlug"
+        },
+        {
+            "showName": "Sdcard_Intent"
+        },
+		{
+			"showName": "LCD",
+			"paramconfig": {
+					"lcd_pic": [
+						"01-P19-W255;120;2047;null;0;2000",
+						"02-P19-R255;120;2047;null;0;2000",
+						"03-P19-G255;120;2047;null;0;2000",
+						"04-P19-B255;120;2047;null;0;2000",
+						"06-P19-W0;120;2047;null;0;2000",
+						"06-P19-W0;60;4095;null;0;2000",
+						"07-P19-Crosstalk;120;2047;null;0;2000",
+						"08-P19-W87;120;2047;null;0;2000",
+						"13-P19-AOD;60;0;null;2;2000",
+						"13-P19-AOD;60;0;null;1;2000",
+						"11-P19-guodu;90;4095;null;0;2000",
+						"12-P19-chongzai;120;2047;null;0;2000"
+					]
+			}	
+		}
+    ]
+}

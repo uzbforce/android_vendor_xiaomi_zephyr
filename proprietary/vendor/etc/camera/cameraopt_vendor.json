@@ -1,0 +1,168 @@
+{
+    "version": "1.0",
+    "LeakChecker":{
+        "diff_leak_threshold": {
+            "heap": 1000000,
+            "dmabuffer": 1000000,
+            "gpu": 200000,
+            "fd": 300,
+            "tls": 300
+        },
+        "abs_leak_threshold": {
+            "heap": 2000000,
+            "dmabuffer": 1500000,
+            "gpu": 600000,
+            "fd": 2000,
+            "tls": 10000
+        }
+    },
+    "MemoryChecker": {
+        "highMemThreashold": 3000000,
+        "diffMemThreashold": 1000000,
+        "psiCpuThreashold": 50,
+        "psiMemThreashold": 10
+    },
+    "MemoryWatcher":{
+        "abort_threshold": {
+            "heap": 2000000,
+            "dmabuffer": 2000000,
+            "gpu": 2000000,
+            "fd": 28000,
+            "tls": 50000,
+            "mmap": 50000
+        },
+        "checkInterval": 21600000
+    },
+    "CameraPerception":{
+        "dma_dump": {
+            "enable": 1,
+            "dump_threshold": 2500,
+            "dump_interval": 200,
+            "max_dump_count": 10
+        }
+    },
+    "ThreadPoolPolicyParams":{
+        "Preview": {
+            "priority":100,
+            "manager_create_thread_number":10,
+            "default_schedule_thread_number":6,
+            "category":"Preview"
+        },
+        "AsyncPreview": {
+            "priority":100,
+            "manager_create_thread_number":3,
+            "default_schedule_thread_number":3,
+            "category":"Preview"
+        },
+        "PrimeCompute": {
+            "priority":101,
+            "manager_create_thread_number":3,
+            "default_schedule_thread_number":3,
+            "category":"PrimeCompute"
+        },
+        "Capture": {
+            "priority":117,
+            "manager_create_thread_number":5,
+            "default_schedule_thread_number":5,
+            "category":"Capture"
+        },
+        "Aux": {
+            "priority":101,
+            "manager_create_thread_number":5,
+            "default_schedule_thread_number":5,
+            "category":"Aux"
+        },
+        "Positive": {
+            "priority":101,
+            "manager_create_thread_number":5,
+            "default_schedule_thread_number":5,
+            "category":"Positive"
+        },
+        "Other": {
+            "priority":116,
+            "manager_create_thread_number":1,
+            "default_schedule_thread_number":1,
+            "category":"Other"
+        }
+    },
+    "DynamicPreviewThread":{
+        "qcom" :{
+            "slowmontion_1":4
+        }
+    },
+    "MemoryOptPolicy":{
+        "PsiPolicy": [
+            {
+                "priority": 1,
+                "trigger": {
+                    "free": "0:153600",
+                    "cache": "0:1024000",
+                    "mem_psi": "30:-1"
+                },
+                "restore": {
+                    "cache": "1228800:-1",
+                    "mem_psi": "0:15"
+                },
+                "actions":{
+                    "CAPTURE": {
+                        "PREVIEW_LOFIC_DISABLE": 2,
+                        "PREVIEW_LBMF_DISABLE": 2,
+                        "PREVIEW_DXGTIM_DISABLE": 2,
+                        "FUSION": 2,
+                        "EDOF": 2
+                    },
+                    "LIVEPHOTO": {
+                        "HDR": 2,
+                        "FUSION": 2,
+                        "SE": 2
+                    }
+                }
+            },
+            {
+                "priority": 0,
+                "trigger": {
+                    "free": "0:102400",
+                    "cache": "0:819200",
+                    "mem_psi": "40:-1"
+                },
+                "restore": {
+                    "cache": "1024000:-1",
+                    "mem_psi": "0:30"
+                },
+                "actions": {
+                    "PORTRAIT": {
+                        "PREVIEW_BOKEH": 2,
+                        "PREVIEW_BEAUTY": 2,
+                        "SN": 2
+                    }
+                }
+            }
+        ],
+        "TotalMemPolicy": [
+            {
+                "trigger": {
+                    "totalmem": "5242880:-1"
+                },
+                "restore": {
+                    "totalmem": "0:4613734"
+                },
+                "actions": {
+                    "CAPTURE": {
+                    }
+                }
+            }
+        ]
+    },
+    "PerfPowerProfiler": {
+        "enable": 1,
+        "perf_bacground_list": {
+            "mivi_infinity_HQquickshot": "mivi_infinity_HQquickshot_bg"
+        },
+        "perf_thermal_name": {
+            "ThermalLevelLow": "mivi_infinity_HQquickshot_gallery_thermal_0",
+            "ThermalLevelThermalBreak": "mivi_infinity_HQquickshot_gallery_thermal_1",
+            "ThermalLevelThermalHot": "mivi_infinity_HQquickshot_gallery_thermal_2",
+            "ThermalLevelThermalHurt": "mivi_infinity_HQquickshot_gallery_thermal_3"
+        }
+    }
+}

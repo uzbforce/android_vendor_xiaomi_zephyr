@@ -1,0 +1,68 @@
+{
+	"veri": {
+		"vericode": "10e916bf"
+	},
+	"version": {
+		"version": "1.0.0.2026062401_#24494-9"
+	},
+    "parameters": {
+		"front_parameters": {
+			"front_cap_parameters": {
+				"ABS_KEY_BASIC_SKIN_SOFTEN": {
+					"slider_mid":20,
+					"value_mid":15,
+					"value_max":80
+				},
+				"ABS_KEY_BASIC_DE_BLEMISH": {
+					"depend_key": "ABS_KEY_BASIC_SKIN_SOFTEN",
+					"slider_mid":20,
+					"value_mid":30,
+					"value_max":100
+				}
+			},
+			"front_pre_parameters": {
+				"ABS_KEY_BASIC_SKIN_SOFTEN": {
+					"slider_mid":20,
+					"value_mid":40,
+					"value_max":80
+				}
+			}
+		},
+		"rear_parameters": {
+			"rear_slider_parameters": {
+				"rear_slider_cap_parameters": {
+					"ABS_KEY_BASIC_SKIN_SOFTEN": {
+						"slider_mid":0,
+						"value_mid":0,
+						"value_max":50,
+						"male_ratio":0.8
+					},
+					"ABS_KEY_BASIC_DE_BLEMISH": {
+						"slider_mid":40,
+						"value_mid":80,
+						"value_max":100,
+						"male_ratio":0.9
+					}
+				},
+				"rear_slider_pre_parameters": {
+					"ABS_KEY_BASIC_SKIN_SOFTEN": {
+						"slider_mid":0,
+						"value_mid":0,
+						"value_max":100,
+						"male_ratio":1
+					}
+				}
+			},
+			"rear_recording_slider_parameters": {
+				"rear_recording_slider_pre_parameters": {
+					"ABS_KEY_BASIC_SKIN_SOFTEN": {
+						"slider_mid":0,
+						"value_mid":0,
+						"value_max":100,
+						"male_ratio":1
+					}
+				}
+			}
+		}
+	}
+}

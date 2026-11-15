@@ -1,0 +1,31 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Vibrator"
+    },
+    {
+      "showName": "Speaker"
+    },
+    {
+      "showName": "fingerprint"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "Sdcard_Intent"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "SimCard_HotPlug"
+    },
+    {
+      "showName": "Charge"
+    },
+    {
+      "showName": "OTG"
+    }
+  ]
+}

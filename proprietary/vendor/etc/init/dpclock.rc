@@ -1,0 +1,9 @@
+service dpclock /vendor/bin/dpclock
+    user root
+    group root system
+    oneshot
+    disabled
+
+on property:ro.miui.customized.region=global_watu && property:persist.vendor.sys.dlc_lock=*
+    start dpclock
+

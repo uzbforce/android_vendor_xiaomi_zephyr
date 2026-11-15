@@ -1,0 +1,156 @@
+{
+    "mmigroupConfig": {
+        "hideDiskMountUi": true
+    },
+    "systemConfig": {
+        "Attestation": false,
+        "Widewine": false,
+        "IFAA_Version": false,
+        "FIDO_Version": false
+    },
+    "itemConfig": [
+        {
+            "showName": "VersionInfo",
+            "paramconfig": {
+                "AddInfo": {
+                    "SecureBoot": "any",
+                    "//TPcolor": "any",
+                    "CPUID": "any",
+                    "TP": "any",
+                    "RPMB": "any",
+                    "CameraInfo": "any",
+                    "BuildNumber": "any",
+                    "BaseBandVersion": "any",
+                    "KernelVersion": "any",
+                    "LCM": "any",
+                    "verifiedbootstate": "green",
+                    "System_Verity": "true"
+                }
+            }
+        },
+        {
+            "showName": "SimCard_HotPlug"
+        },
+        {
+            "showName": "Sdcard_Intent"
+        },
+        {
+            "showName": "ESIMCard"
+        },
+        {
+            "showName": "KeyPad",
+            "paramconfig": {
+                "keyCode": [
+                    "VOLUME_UP",
+                    "VOLUME_DOWN",
+                    "POWER"
+                ]
+            }
+        },
+        {
+            "showName": "TpOpenShort"
+        },
+        {
+            "showName": "LCD"
+        },
+        {
+            "showName": "TouchScreen"
+        },
+        {
+            "showName": "LightTEST"
+        },
+        {
+            "showName": "MainCamera",
+            "paramconfig": {
+                "takepicture_not_save_picture": true
+            }
+        },
+        {
+            "showName": "QVGATEST"
+        },
+        {
+            "showName": "FrontCamera",
+            "paramconfig": {
+                "takepicture_not_save_picture": true
+            }
+        },
+        {
+            "showName": "Charge"
+        },
+        {
+            "showName": "FastCharge"
+        },
+        {
+            "showName": "WlanAP"
+        },
+        {
+            "showName": "WlanAddress"
+        },
+        {
+            "showName": "BluetoothDevice"
+        },
+        {
+            "showName": "BluetoothAddress"
+        },
+        {
+            "showName": "GPS"
+        },
+        {
+          "showName": "OTG",
+          "paramconfig": {
+            "support_udisk": true,
+            "is_show_storage": true,
+            "support_typec": true,
+            "support_mouse": true
+          }
+        },    
+        {
+            "showName": "Magnetic"
+        },
+        {
+          "showName": "Accelerometer",
+          "paramconfig": {
+            "support_calibrate": false
+            }
+        },
+        {
+            "showName": "Gyroscope"
+        },
+        {
+            "showName": "Optical"
+        },        
+        {
+          "showName": "Proximity"
+        },
+        {
+            "showName": "Speaker"
+        },
+        {
+            "showName": "Receiver"
+        },
+        {
+            "showName": "MainMicToHeadPhone"
+        },
+        {
+            "showName": "HeadSet"
+        },        
+        {
+          "showName": "fingerprint"
+        },
+        {
+          "showName": "fingerprint_enroltest"
+        },    
+        {
+            "showName": "Vibrator",
+            "paramconfig": {
+                "is_auto_vibrate": false
+            }
+        },
+        {
+            "showName": "NFC"
+        },
+        {
+            "showName": "Sar"
+        }
+    ]
+}

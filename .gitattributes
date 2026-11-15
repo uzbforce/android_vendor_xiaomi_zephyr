@@ -1,0 +1,2 @@
+# Blobs are opaque: no EOL conversion, no diffs.
+proprietary/** binary

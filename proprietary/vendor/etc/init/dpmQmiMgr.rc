@@ -1,0 +1,15 @@
+# Copyright (c) 2019-2021 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+#start dpmQmiMgr service
+service dpmQmiMgr /system/vendor/bin/dpmQmiMgr
+    class hal
+    user system
+    group system
+
+on property:persist.vendor.dpm.vndr.halservice.enable=*
+   start dpmQmiMgr
+
+on property:persist.vendor.dpm.vndr.halservice.enable=0
+   stop dpmQmiMgr

@@ -1,0 +1,120 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "SimCard_HotPlug"
+		},
+		{
+			"showName": "Sdcard_Intent"
+		},
+		{
+			"showName": "ESIMCard"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "LCD",
+			"paramconfig": {
+				"auto_switch": false,
+				"special_backlight_frame_rate": false,
+				"lcd_pic": [
+					"Color_R",
+					"Color_G",
+					"Color_B"
+				]
+			}
+		},
+		{
+			"showName": "TouchScreen"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "QVGATEST"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "LightTEST"
+		},
+        {
+            "showName": "Charge",
+            "paramconfig": {
+               "ChargerCurrent": {
+                   "min": -9999999,
+                   "max": 9999999
+                }
+            }
+        },
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_axialresult": true,
+				"support_angle45": false,
+				"support_angleneg45": false,
+				"is_auto_calibrate": false,
+				"support_plus_or_minus_45_degrees_either_pass_through": false,
+				"autoTest": {
+					"support_calibrate": false
+				}
+			}
+		},
+		{
+			"showName": "Magnetic",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_draw": false,
+				"support_test": true,
+				"self_calibrate": false
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "Receiver"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "HeadSet"
+		},
+        {
+          "showName": "fingerprint"
+        },
+		{
+			"showName": "NFC",
+			"paramconfig": {
+				"support_noCardCheck": true
+			}
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		}
+	]
+}

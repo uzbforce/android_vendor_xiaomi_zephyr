@@ -1,0 +1,10 @@
+service vendor.media.omx /vendor/bin/hw/android.hardware.media.omx@1.0-service
+    class main
+    # 32-bit vendor binary: it cannot exec on this 64-bit-only image (no
+    # /system/bin/linker), so starting it just crash-loops. Nothing uses OMX on
+    # this codec2 platform.
+    disabled
+    user mediacodec
+    group camera drmrpc mediadrm audio
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh
